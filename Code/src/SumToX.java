@@ -1,7 +1,7 @@
 /**
  * Finding pairs of elements in an array that sum to a target value
  *
- * @author Gunjan Tomer
+ * @author Gunjan, Antriksh, Sai Kumar, Swaroop
  */
 
 import java.util.HashMap;
