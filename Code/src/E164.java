@@ -1,8 +1,20 @@
+/**
+ *
+ * Program to convert a given string into the E164 format for US numbers.
+ *
+ */
+
 import java.util.Scanner;
 
 
 public class E164 {
 
+    /**
+     * Method to validate the provided string to comply with the characters allowed in phone numbers
+     *
+     * @param s
+     * @return bigFlag
+     */
     private boolean checkValid(String s) {
 
         char[] ch = s.toCharArray();
@@ -21,6 +33,12 @@ public class E164 {
         return bigFlag;
     }
 
+    /**
+     * Method to convert the input string to a valid E164 format number with the US CC
+     *
+     * @param number
+     * @return string
+     */
     private String makeNumber(String number) {
         StringBuilder sb = new StringBuilder();
         sb.append("+1 ");
@@ -44,6 +62,11 @@ public class E164 {
         return sb.toString();
     }
 
+    /**
+     * Main method for E164 class
+     *
+     * @param args
+     */
 
     public static void main(String[] args) {
 
