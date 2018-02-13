@@ -41,7 +41,7 @@ public class E164 {
      */
     private String makeNumber(String number) {
         StringBuilder sb = new StringBuilder();
-        sb.append("+1 ");
+        sb.append("+1");
 
         char[] num = number.toCharArray();
 
@@ -53,7 +53,7 @@ public class E164 {
                 if(Character.isDigit(n)){
                     sb.append(n);
                 }
-            if(sb.length() > 13){
+            if(sb.length() > 12){
                 System.out.println("Length exceeded for 10 digit phone number.");
                 return null;
             }
