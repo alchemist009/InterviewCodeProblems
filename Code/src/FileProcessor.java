@@ -1,3 +1,8 @@
+/**
+ *
+ * Quickfix code to correctly format a resource text file for Weather app for Android(HCI)
+ */
+
 import jdk.nashorn.internal.runtime.regexp.joni.Regex;
 
 import javax.swing.*;
